@@ -29,20 +29,22 @@ export default async function Subcat({ params, searchParams }: {
    }
    
     return (
-      
+      <Wrapper>
       <div className='flex justify-evenly items-center flex-wrap flex-grow'>
       {
         filterdProducts.map((product:ProductType, index:number)=>{
           return (
-            <Wrapper>
+            
             <Productcard
             key={index}
             item={product}
              />
-             </Wrapper>
+             
           )
         })
       }
+      
       </div>
+      </Wrapper>
     )
   }

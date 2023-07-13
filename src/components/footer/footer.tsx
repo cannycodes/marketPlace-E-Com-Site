@@ -3,9 +3,9 @@ import Wrapper from '../Wrapper'
 import Link from 'next/link'
 import Image from 'next/image'
 import logo from '../../../public/Logo.webp'
-import {ImTwitter } from "react-icons/Im";
-import {FaFacebookF } from "react-icons/Fa";
-import {FaLinkedinIn} from 'react-icons/Fa'
+import {ImTwitter } from "react-icons/im"
+import {FaFacebookF } from "react-icons/fa"
+import {FaLinkedinIn} from 'react-icons/fa'
 
 // const Footer = () => {
 //   return (
